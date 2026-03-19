@@ -1,13 +1,40 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
 
-Try running some of the following tasks:
+# 📦  **DEX AMM**
 
-```shell
-npx hardhat help
+```markdown
+# DEX AMM (Decentralized Exchange)
+
+A decentralized exchange prototype implementing Automated Market Maker (AMM) logic using Solidity. The project allows users to swap tokens and provide liquidity without relying on centralized intermediaries.
+
+## Overview
+
+This project demonstrates the core working of an AMM-based exchange where token prices are determined algorithmically based on liquidity pool ratios.
+
+## Features
+
+- Token swap functionality  
+- Liquidity pool management  
+- Price calculation using AMM formula  
+- Decentralized trading without intermediaries  
+
+## Tech Stack
+
+- Solidity  
+- Hardhat  
+- JavaScript  
+- ethers.js  
+
+## Key Concepts Used
+
+- Automated Market Maker (AMM)  
+- Liquidity pools  
+- Token swaps  
+- Pricing algorithms  
+
+## Getting Started
+
+```bash
+npm install
+npx hardhat compile
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
