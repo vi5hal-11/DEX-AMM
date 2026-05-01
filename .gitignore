@@ -19,3 +19,4 @@ ignition/deployments/chain-31337
 # Frontend
 dex-frontend/node_modules
 dex-frontend/dist
+.claude/
